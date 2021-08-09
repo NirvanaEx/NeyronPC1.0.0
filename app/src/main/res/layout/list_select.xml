@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/list_choise_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="1dp"
+    android:background="@color/redTransparent70"
+    android:padding="@dimen/size1dp">
+    <LinearLayout
+        android:id="@+id/list_choise_container_arg1_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/list_choise_arg1_tv"
+            android:layout_width="match_parent"
+            android:text="Company"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text26sp"
+            android:textColor="@color/whiteTransparent50"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/list_choise_container_arg2_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/list_choise_arg2_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="Model"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text20sp"
+            android:layout_marginRight="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/list_choise_container_arg3_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <TextView
+            android:id="@+id/list_choise_arg3_tv"
+            android:textColor="@color/white"
+            android:text="12.000.000 UZS"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text20sp"
+            android:layout_marginRight="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

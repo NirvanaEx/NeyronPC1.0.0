@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_margin="10dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rectangle_background_white"
+        android:hint="Найти..."
+        android:textColor="@color/black"
+        android:paddingLeft="15dp"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/search"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+</RelativeLayout>

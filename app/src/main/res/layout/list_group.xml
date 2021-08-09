@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/list_group_relativelayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:clickable="true">
+    <TextView
+        android:id="@+id/list_view_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu text"
+        android:textSize="26sp"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:focusable="false"
+        />
+    <TextView
+        android:id="@+id/list_view_number_tv"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:textSize="18sp"
+        android:background="@drawable/circle_background_red"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        android:padding="1dp"
+        android:text="9+"/>
+</RelativeLayout>

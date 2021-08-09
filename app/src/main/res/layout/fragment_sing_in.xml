@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authorization_fragments.SingInFragment"
+    android:clickable="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_background">
+        <!-- TODO Add logo src-->
+        <ImageView
+            android:id="@+id/sing_in_logoimage"
+            android:layout_width="266dp"
+            android:layout_height="62dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp" />
+
+        <RelativeLayout
+            android:id="@+id/sing_in_container"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sing_in_logoimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rectangle_background_white_transparent">
+
+            <TextView
+                android:id="@+id/sing_in_login_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/sing_in_login_et"
+                android:layout_marginTop="15dp"
+                android:text="@string/login"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/sing_in_login_et"
+                android:layout_width="215dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/sing_in_login_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rectangle_background_white"
+                android:hint="This is login"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/sing_in_password_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sing_in_login_et"
+                android:layout_alignLeft="@id/sing_in_login_et"
+                android:layout_marginTop="10dp"
+                android:text="@string/password"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/sing_in_password_et"
+                android:layout_width="215dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/sing_in_password_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rectangle_background_white"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/sing_in_enter_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@id/sing_in_password_et"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rectangle_background_red"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/sign_in"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/sing_in_fogot_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sing_in_container"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/fogot_login_or_password"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/sing_in_press_here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sing_in_fogot_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/press_here"
+            android:textColor="@color/blue" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sing_in_press_here"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/sing_in_not_account_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sing_in_press_here"
+                android:text="@string/not_account"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/sing_in_registation_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/registration_underline"
+                android:textColor="@color/blue" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

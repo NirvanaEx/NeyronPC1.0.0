@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Neyron PC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="sing_in_underline"><u>Войти</u></string>
+    <string name="fogot_login_or_password">Забыли Логин/Пароль?</string>
+    <string name="press_here"><u>Нажмите сюда!</u></string>
+    <string name="not_account">Нет аккаунта?</string>
+    <string name="registration">Регистрация</string>
+    <string name="registration_underline"><u>Регистация</u></string>
+
+    <string name="email">Email</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="already_has_account">Уже есть аккаунт?</string>
+
+    <string name="we_sent_code">Мы отправили пароль  на ваш email</string>
+    <string name="enter_code">Ввести код</string>
+    <string name="confirm">Подтвердить</string>
+
+
+    <string name="main">Главное</string>
+    <string-array name="tab_items">
+        <item>Новинки</item>
+        <item>Все</item>
+        <item>Собери сам</item>
+    </string-array>
+
+    <string name="filter">Фильтр</string>
+    <string name="in_card">В корзину</string>
+
+    <string-array name="menu_list">
+        <item>Главное</item>
+        <item>Аккаунт</item>
+        <item>Корзина</item>
+        <item>Заказы</item>
+        <item>О нас</item>
+        <item>Настройка</item>
+        <item>Помощь</item>
+    </string-array>
+
+    <string name="cart">Корзина</string>
+    <string name="help">Помощь</string>
+    <string name="order">Заказы</string>
+
+    <string name="advanced_search">Расширенный поиск</string>
+    <string name="price">Стоимость</string>
+    <string name="from">От</string>
+    <string name="to">До</string>
+    <string name="currency">Валюта</string>
+    <string name="count_result">Количество результатов:</string>
+    <string name="show">Показать</string>
+
+    <string name="processor">Процессор</string>
+    <string name="videocard">Видеокарта</string>
+    <string name="motherboard">Материнская плата</string>
+    <string name="ram">Оперативная память</string>
+    <string name="ssd">SSD</string>
+    <string name="hdd">HDD</string>
+    <string name="powersuppy">Блок питание</string>
+    <string name="cooler">Кулер</string>
+    <string name="pc_case">Кейс</string>
+
+
+    <string name="company">Компания</string>
+    <string name="model">Модель</string>
+    <string name="budjet">Бюджет</string>
+    <string name="show_budjet">Показать бюджет</string>
+    <string name="anchor">Закрепить</string>
+    <string name="components">Комплектующие</string>
+    <string name="total">Итого:</string>
+    <string name="count">Количество</string>
+    <string name="not_selected">Не выбрано</string>
+
+
+    <string-array name="currency_kind">
+        <item>USD</item>
+        <item>UZS</item>
+    </string-array>
+
+    <string name="usd">USD</string>
+    <string name="uzs">UZS</string>
+
+
+    <string name="you_can_take_1_or_2">Вы можете выбрать 1 или 2!</string>
+</resources>

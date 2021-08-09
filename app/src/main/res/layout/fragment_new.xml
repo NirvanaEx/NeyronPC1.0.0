@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+<ScrollView
+    android:id="@+id/fragment_news_scrollview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+        <include
+            android:id="@+id/fragment_news_search"
+            layout="@layout/search"/>
+
+        <LinearLayout
+            android:id="@+id/fragment_news_filter_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_news_search"
+            android:orientation="horizontal"
+            android:layout_alignLeft="@id/fragment_news_search">
+            <TextView
+                android:id="@+id/fragment_news_filter_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter"
+               android:layout_marginLeft="15dp"
+                android:textSize="18sp"
+                />
+            <Button
+                android:id="@+id/fragment_news_filter_btn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/filter"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/fragment_news_filtershow_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_news_filter_container"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fragment_news_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/fragment_news_filtershow_container"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+    <!--TODO Change Views
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="@color/white"
+        app:borderWidth="0dp"
+        android:layout_margin="15dp"/>
+        -->
+</RelativeLayout>
