@@ -1,8 +1,7 @@
 # NeyronPC1.0.0
-Проект для сборки ПК. Может работать удаленно. Связан с помощью API, написанной на PHP
-<img src="https://github.com/NirvanaEx/NeyronPC1.0.0/blob/main/images/1.jpg" width="200" />
-
-(https://github.com/NirvanaEx/NeyronPC1.0.0/blob/main/images/2.jpg)
-(https://github.com/NirvanaEx/NeyronPC1.0.0/blob/main/images/3.jpg)
-(https://github.com/NirvanaEx/NeyronPC1.0.0/blob/main/images/4.jpg)
-(https://github.com/NirvanaEx/NeyronPC1.0.0/blob/main/images/5.jpg)
+Проект для сборки ПК. Может работать удаленно. Связан с помощью API, написанной на PHP <br>
+<img src="https://github.com/NirvanaEx/NeyronPC1.0.0/blob/main/images/1.jpg" width="300" />
+<img src="https://github.com/NirvanaEx/NeyronPC1.0.0/blob/main/images/2.jpg" width="300" />
+<img src="https://github.com/NirvanaEx/NeyronPC1.0.0/blob/main/images/3.jpg" width="300" />
+<img src="https://github.com/NirvanaEx/NeyronPC1.0.0/blob/main/images/4.jpg" width="300" />
+<img src="https://github.com/NirvanaEx/NeyronPC1.0.0/blob/main/images/5.jpg" width="300" />
